@@ -1,0 +1,189 @@
+title: LaTeX使用过程中的各种类型文件说明
+date: 2013-01-24 22:01 
+categories: [LaTeX]
+tags: [LaTeX]
+---
+
+最近没事在捣鼓LaTex，在网上看到诸多大牛都在用LaTex写个人简历，于是也就下载一个模板，结果发现自己那半吊子的LaTex水平实在烂的不行，发现很多文件都没见过。于是乎就在Internet上搜了一把，找了各种LaTex文件的说明。
+
+在系统使用过程中会遇到各种类型的文件
+
+<!--more-->
+
+<table>
+<thead>
+<tr>
+  <th>后缀</th>
+  <th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>.afm</td>
+  <td>Adobe Type1字体描述文件，ASCII格式。</td>
+</tr>
+<tr>
+  <td>.bak</td>
+  <td>备份文件，当源文件.tex存盘时由系统自动创建。</td>
+</tr>
+<tr>
+  <td>.bib</td>
+  <td>文献数据库。</td>
+</tr>
+<tr>
+  <td>.bst</td>
+  <td>BiBTeX文献样式文件。</td>
+</tr>
+<tr>
+  <td>.cfg</td>
+  <td>供类包或宏包调用的配置文件。</td>
+</tr>
+<tr>
+  <td>.cls</td>
+  <td>稿件类型文件，可用命令\documentclass调用。</td>
+</tr>
+<tr>
+  <td>.doc</td>
+  <td>类包或宏包的说明文件。</td>
+</tr>
+<tr>
+  <td>.dtx</td>
+  <td>包含类或宏包及其说明文件的文件，需用同名.ins文件或docstrip工具分解。</td>
+</tr>
+<tr>
+  <td>.fd</td>
+  <td>字体定义文件，定义某一字族，用于LaTeX字体寻找。</td>
+</tr>
+<tr>
+  <td>.ins</td>
+  <td>同名.dtx的分解文件，用PDFLaTeX编译，可得到sty或cls等类型文件。</td>
+</tr>
+<tr>
+  <td>.map</td>
+  <td>字体名称与.tfm文件之间的字体映射文件。</td>
+</tr>
+<tr>
+  <td>.mbs</td>
+  <td>主控文件，包含全部 文献样式命令，用于生成.bst文献样式文件。</td>
+</tr>
+<tr>
+  <td>.mf</td>
+  <td>METAFONT字体描述文件，Knuth教授创立的矢量字体。</td>
+</tr>
+<tr>
+  <td>.pfa</td>
+  <td>Type 1字体文件，ASCII格式，一种高品质矢量字体，越放大越清晰。</td>
+</tr>
+<tr>
+  <td>.pfb</td>
+  <td>Type 1字体文件，二进制格式。</td>
+</tr>
+<tr>
+  <td>.pk</td>
+  <td>pk字体，一种点阵字体，用于dvi文件预览等。</td>
+</tr>
+<tr>
+  <td>.pl</td>
+  <td>字体属性列表，可读的字体描述文件。</td>
+</tr>
+<tr>
+  <td>.sfd</td>
+  <td>子字库定义文件。</td>
+</tr>
+<tr>
+  <td>.sty</td>
+  <td>宏包文件，可用命令\usepackage调用。</td>
+</tr>
+<tr>
+  <td>.tex</td>
+  <td>LaTeX源文件。</td>
+</tr>
+<tr>
+  <td>.tfm</td>
+  <td>字体描述文件，设定字体的宽、高和间距等，LaTeX用以规划页面。</td>
+</tr>
+<tr>
+  <td>.ttf</td>
+  <td>Truetype字体，Windows系统使用的一种全真字体。</td>
+</tr>
+<tr>
+  <td>.vf</td>
+  <td>TeX虚拟字体</td>
+</tr>
+<tr>
+  <td>.vpl</td>
+  <td>虚拟属性列表，可读的虚拟字体文件。</td>
+</tr>
+</tbody>
+</table>
+
+在源文件编译过程中创建的文件
+
+<table align="center">
+<thead>
+<tr>
+  <th align="center">后缀</th>
+  <th align="center">用途</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>.aux</td>
+  <td>引用标记记录文件，用于再次编译时生成参考文献和超链接等。</td>
+</tr>
+<tr>
+  <td>.bbl</td>
+  <td>由BiBTeX编辑.bib后创建的文献文件，再次编译时带入源文件生成文献列表。</td>
+</tr>
+<tr>
+  <td>.blg</td>
+  <td>BiBTeX处理过程记录文件。</td>
+</tr>
+<tr>
+  <td>.dbj</td>
+  <td>批处理文件，由makebst工具在创建.bst文献样式文件时生成。</td>
+</tr>
+<tr>
+  <td>.dvi</td>
+  <td>由LaTeX对.tex源文件编译后创建的输出文件，含有字库信息。</td>
+</tr>
+<tr>
+  <td>.glo</td>
+  <td>术语标记记录文件，用于再次编译时生成术语表。</td>
+</tr>
+<tr>
+  <td>.idx</td>
+  <td>索引资料记录文件，可用makeindex排序后创建索引文件.ind。</td>
+</tr>
+<tr>
+  <td>.ilg</td>
+  <td>makeindex处理过程记录文件。</td>
+</tr>
+<tr>
+  <td>.ind</td>
+  <td>makeindex对.idx排序后创建的索引文件，再次编译时带入源文件生成索引。</td>
+</tr>
+<tr>
+  <td>.lof</td>
+  <td>图形标题记录文件，用于再次编译时生成图形目录。</td>
+</tr>
+<tr>
+  <td>.log</td>
+  <td>编译过程记录文件，记录编译时出现的提示、警告和错误信息。</td>
+</tr>
+<tr>
+  <td>.lot</td>
+  <td>表格标题记录文件，用于再次编译时生成表格目录。</td>
+</tr>
+<tr>
+  <td>.pdf</td>
+  <td>由PDFLaTeX对.tex或dvipdf对.dvi或pspdf对.ps编译后创建的图形文件。</td>
+</tr>
+<tr>
+  <td>.ps</td>
+  <td>由dvips对.dvi文件编译后创建的图形文件。</td>
+</tr>
+<tr>
+  <td>.toc</td>
+  <td>章节标题记录文件，用于再次编译时生成章节目录。</td>
+</tr>
+</tbody>
+</table>
