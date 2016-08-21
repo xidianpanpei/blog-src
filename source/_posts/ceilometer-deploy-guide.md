@@ -3,7 +3,7 @@ date: 2014-03-08 15:44:07
 categories: [OpenStack]
 tags: [Ceilometer,OpenStack]
 ---
-![](/img/2014/03/08/openstack.jpg)
+![](http://ww3.sinaimg.cn/large/7458d655gw1f70ojqmn8mj20dw0aft8t.jpg)
 
 ## 题记
 由于我们的系统在很早之前就部署完成了。当时Ceilomter刚刚在Havana版本中发布，我们主要专注于网络和虚拟化部分，所以当时就没有在我们的Havana版本环境中安装Ceilomter，但是现在由于需要，开始研究OpenStack的监控功能， 所以就需要在我们现有的系统上补上Ceilomter了。利用了网上的各种教程，但是发现都有些问题，最终不得不依靠官方的Havana部署教程，利用其Ceilometer安装那一节的教程，完成了Ceilometer的完美部署。

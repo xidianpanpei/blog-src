@@ -15,4 +15,4 @@ tags: [Babun,终端,工作环境]
 等到命令执行完毕，Babun也就顺利安装完成了，看上去是不是很简单的。但是刚刚安装完毕的Babun的界面还是只是经典Dos风格的，看上去还是很丑。然后没办法，我只能祭出之前在Ubuntu上修改Terminator的办法，使用Solarized Dark配色的配置方法加上dircolors将其修改的有点Linux终端的味道了。最后就是使用私家的[Vim配置](https://github.com/xidianpanpei/dot-vimrc) 调整好Vim。整个过程折腾下来还是有些麻烦的，但是总算能够在Windows上有一个可用的Terminal了。
 
 最后祭上最终的Babun的截图，看上是不是蛮不错的！
-![](/img/2015/04/30/babun.jpg)
+![](http://ww2.sinaimg.cn/large/7458d655gw1f70ojtmx8lj21270kadlo.jpg)

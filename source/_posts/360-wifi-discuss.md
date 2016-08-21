@@ -4,7 +4,7 @@ categories: [评论]
 tags: [360WiFi]
 ---
 
-![](/img/2013/06/20/360-wifi.jpg "360WiFi")
+![](http://ww4.sinaimg.cn/large/7458d655gw1f70ojquiwqj20df08f3yu.jpg)
 
 前两天在微博上看到360出了一款名叫[360WiFi][1]的产品，顾名思义其功能就是实现WiFi功能。该产品出来以后，鉴于周鸿祎以往的为人和手段，各方几乎没有对这个产品有好评的。甚至于金山在其软件中心直接弄了个一键实现WiFi热点的功能。
 

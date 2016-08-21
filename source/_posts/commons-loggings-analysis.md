@@ -16,11 +16,11 @@ tags: [开源,commons-logging]
 
 <!--more-->
 
-![](/img/2013/09/26/commons-logging-source-archeture.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ojqakaqj20870alta8.jpg)
 
 其中的，部分代码文件已经作废，至于为什么没有删除掉，这就不得而知了。其中的LogSource.java文件已经作废，而其功能职责则由LogFactory.java代替。LogFactory.java实际只是一个实现接口，具体的实现则是由继承LogFactory.java的LogFactoryImpl.java来完成了。目录中众多其他实现文件则是继承自Log.java接口，对其实现了不同的功能，完成底层的对不同的实际执行日志系统的适配。主要是配有：AvalonLogger、Jdk13LumberjackLogger、Jdk14Logger、Log4JLogger、LogKitLogger、SimpleLog。还有一个ServletContextCleaner.java则是为了WebApp相关项目而准备，用于释放有关的内存。
 
-![](/img/2013/09/26/jcl_class_diagram.jpg)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ojqi8bzj20gl07l74v.jpg)
 
 在LogFactory中定义了一定的规则，从而根据当前的环境和配置取得特定的Log子类实例。
 

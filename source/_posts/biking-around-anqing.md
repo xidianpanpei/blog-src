@@ -14,41 +14,41 @@ tags: [骑行,安庆]
 
 「骑行路线」
 
-![](/img/2013/07/17/biking-line.png)
+![](http://ww3.sinaimg.cn/large/7458d655gw1f70ojv0w0bj20sg0hon3r.jpg)
 
 「母校闲逛」
 
-![](/img/2013/07/17/biking-school-1.png)
+![](http://ww3.sinaimg.cn/large/7458d655gw1f70ojzvw19j20m80goagq.jpg)
 
-![](/img/2013/07/17/biking-school-2.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ok76sz4j20m80godon.jpg)
 
-![](/img/2013/07/17/biking-school-3.png)
+![](http://ww2.sinaimg.cn/large/7458d655gw1f70ok0m8rpj20m80goafi.jpg)
 
-![](/img/2013/07/17/biking-school-4.png)
+![](http://ww4.sinaimg.cn/large/7458d655gw1f70ok52s1hj20m80go7bx.jpg)
 
-![](/img/2013/07/17/biking-school-5.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ok4yq2qj20m80gowlz.jpg)
 
-![](/img/2013/07/17/biking-school-6.png)
+![](http://ww4.sinaimg.cn/large/7458d655gw1f70ok6ztr3j20m80godo6.jpg)
 
-![](/img/2013/07/17/biking-school-7.png)
+![](http://ww4.sinaimg.cn/large/7458d655gw1f70okb096zj20go0m8tkt.jpg)
 
-![](/img/2013/07/17/biking-school-8.png)
+![](http://ww2.sinaimg.cn/large/7458d655gw1f70okabemvj20m80goqet.jpg)
 
-![](/img/2013/07/17/biking-school-9.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ok8rpb3j20m80go118.jpg)
 
-![](/img/2013/07/17/biking-school-10.png)
+![](http://ww2.sinaimg.cn/large/7458d655gw1f70okay3vfj20m80gogvk.jpg)
 
-![](/img/2013/07/17/biking-school-11.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ok6b65mj20m80go46v.jpg)
 
 「江边一瞥」
 
-![](/img/2013/07/17/biking-changjiang-1.png)
+![](http://ww3.sinaimg.cn/large/7458d655gw1f70ok34nssj20m80go0xu.jpg)
 
-![](/img/2013/07/17/biking-changjiang-2.png)
+![](http://ww4.sinaimg.cn/large/7458d655gw1f70ok0532pj20m80go42t.jpg)
 
-![](/img/2013/07/17/biking-changjiang-3.png)
+![](http://ww1.sinaimg.cn/large/7458d655gw1f70ojyfgcdj20m80gon2l.jpg)
 
-![](/img/2013/07/17/biking-changjiang-4.png)
+![](http://ww2.sinaimg.cn/large/7458d655gw1f70ojy7emyj20m70f4wir.jpg)
 
 
 [1]:http://weibo.com/inxian
