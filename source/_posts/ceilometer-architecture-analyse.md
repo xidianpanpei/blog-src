@@ -3,9 +3,10 @@ date: 2014-08-12 20:13:46
 categories: [OpenStack]
 tags: [Ceilometer,OpenStack]
 ---
-最近因为工作的需要以及论文的方向，需要了解OpenStack监控方面的知识。所以深入看了一下OpenStack的Ceilometer，大致分析了一下Ceilometer的实现机制和工作流程，因此也就形成了本文的对Ceilometer的一个大致框架介绍。
 
 ![](http://ww2.sinaimg.cn/large/7458d655gw1f70ojqz2vvj21460onjuk.jpg)
+
+最近因为工作的需要以及论文的方向，需要了解OpenStack监控方面的知识。所以深入看了一下OpenStack的Ceilometer，大致分析了一下Ceilometer的实现机制和工作流程，因此也就形成了本文的对Ceilometer的一个大致框架介绍。
 
 <!--more-->
 

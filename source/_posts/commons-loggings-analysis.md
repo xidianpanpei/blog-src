@@ -4,8 +4,12 @@ categories: [学习]
 tags: [开源,commons-logging]
 ---
 
+![](http://ww3.sinaimg.cn/large/7458d655gw1f8mfvg7yelj21kw11x7wh.jpg)
+
 ## 日志系统简介
 应用程序中使用日志功能能够方便的调试和跟踪应用程序任意时刻的行为和状态。在大规模的应用开发中尤其重要，毫不夸张的说，日志系统是不可或缺的重要组成部分。由于开源的广泛性，我们不需要再去重复造轮子，我们可以直接使用众多的开源日志系统来满足我们的开发需求。
+
+<!--more-->
 
 目前使用最多的日志系统主要有slf4j、commons-logging这样的“门面”日志系统，也有log4j、logback这样的实际执行日志系统。slf4j、commons-logging这类系统它们本身并不是直接实现具体的日志打印逻辑，而只是作为一个代理系统，接收应用程序的日志打印请求，然后根据当前环境和配置，选取一个具体的日志实现系统，将真正的打印逻辑交给具体的日志实现系统，从而实现应用程序日志系统的“可插拔”，即可以通过配置或更换jar包来方便的更换底层日志实现系统，而不需要改变任何代码。
 
@@ -13,8 +17,6 @@ tags: [开源,commons-logging]
 
 ## commons-logging源码分析
 我们对下载得到的commons-logging源码进行展开，很容得到commons-logging代码的主要代码结构。
-
-<!--more-->
 
 ![](http://ww1.sinaimg.cn/large/7458d655gw1f70ojqakaqj20870alta8.jpg)
 

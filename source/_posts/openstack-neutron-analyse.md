@@ -3,11 +3,14 @@ date: 2014-05-22 19:08:24
 categories: [OpenStack]
 tags: [OpenStack,Neutron]
 ---
+
+![](http://ww2.sinaimg.cn/large/7458d655gw1f8mfc0qf7cj20g405kt9d.jpg)
+
 > 很久之前写了一篇关于OpenStack Neutron解析的文章，那时只是粗略的写了一下把Neutorn的整体架构分析了一下，后来一直忙于其他事情，也就忘了去详细分析一下Neutron的架构。这次这篇算是完成未完之事，同时也是对之前的一个知识的总结及恢复。
 
-OpenStack的Neutron自从由nova-network从Nova中分离出来之后，一直感觉十分的不稳定，而且初期其结构也是十分的复杂。很多人刚刚接触Neutron，甚至刚刚接触OpenStack的时候，都是被困在Neutron异常复杂的机制。尤其当我们部署了一套由Neutron管理网络的OpenStack环境时，会发现很多时候都是在解决各种莫名奇妙的问题，但我们纠察问题时，总是会涉及Neutron。所以，我总是一直认为在实际的生产环境中，如果不是对于网络真的有着很特殊的需求，直接部署OpenStack的Essex版本，别人问我，我也是如是的回答。但是，我们如果是想研究OpenStack的话，Neturon的可玩性还是很大的，尤其是其支持SDN等一些很前瞻性的特性。所以，对于Neturon我们有必要深入的研究一番。
-
 <!--more-->
+
+OpenStack的Neutron自从由nova-network从Nova中分离出来之后，一直感觉十分的不稳定，而且初期其结构也是十分的复杂。很多人刚刚接触Neutron，甚至刚刚接触OpenStack的时候，都是被困在Neutron异常复杂的机制。尤其当我们部署了一套由Neutron管理网络的OpenStack环境时，会发现很多时候都是在解决各种莫名奇妙的问题，但我们纠察问题时，总是会涉及Neutron。所以，我总是一直认为在实际的生产环境中，如果不是对于网络真的有着很特殊的需求，直接部署OpenStack的Essex版本，别人问我，我也是如是的回答。但是，我们如果是想研究OpenStack的话，Neturon的可玩性还是很大的，尤其是其支持SDN等一些很前瞻性的特性。所以，对于Neturon我们有必要深入的研究一番。
 
 接着上次的那篇[文章](http://panpei.net.cn/2013/12/04/openstack-neutron-mechanism-introduce/)，我们再来重新回顾一下Neutron的架构，从物理上划分的话，我们的Neutron主要部署在两类节点上：Compute节点和Network节点，而至于Controller节点，那不是主要的所在，因为几乎所有的组件都要在部署一个server服务在Controller节点上。从网络分层上来看，主要分为二层网络L2-Agent，三层网络L3-Agent，以及DHCP-Agent。借用官网上几张图片，按照物理划分的方式，大致分析一下Neutron架构。
 

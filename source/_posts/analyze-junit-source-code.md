@@ -4,11 +4,13 @@ categories: [学习]
 tags: [JUnit,源码分析,开源]
 ---
 
+![](http://ww3.sinaimg.cn/large/7458d655gw1f8mfu726tej20wi0egdkj.jpg)
+
 JUnit是由Erich Gamma和Kent Beck编写的一个开源的单元测试框架。它属于白盒测试，只要将待测类继承TestCase类，就可以利用JUnit的一系列机制进行便捷的自动测试了。
 
-JUnit的设计精简，易学易用，但是功能却非常强大，这归因于它内部完善的代码结构。JUnit中深深渗透了扩展性优良的设计模式思想。JUnit提供的API既可以让您写出测试结果明确的可重用单元测试用例，也提供了单元测试用例成批运行的功能。在已经实现的框架中，用户可以选择三种方式来显示测试结果，并且 显示的方式本身也是可扩展的。
-
 <!--more-->
+
+JUnit的设计精简，易学易用，但是功能却非常强大，这归因于它内部完善的代码结构。JUnit中深深渗透了扩展性优良的设计模式思想。JUnit提供的API既可以让您写出测试结果明确的可重用单元测试用例，也提供了单元测试用例成批运行的功能。在已经实现的框架中，用户可以选择三种方式来显示测试结果，并且 显示的方式本身也是可扩展的。
 
 ###JUnit系统架构
 通过分析JUnit-3.8.1的源代码文件可以看到，JUnit的源码被分散在6个package中，这个6个package分别为：`junit.awtui`、`junit.swingui`、`junit.textui`、`junit.extensions`、`junit.framework`、`junit.runner`。具体的文件分布图如下：

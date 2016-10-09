@@ -4,6 +4,8 @@ categories: [OpenStack]
 tags: [OpenStack,Neutron]
 ---
 
+![](http://ww2.sinaimg.cn/large/7458d655gw1f8mfc0qf7cj20g405kt9d.jpg)
+
 自从开学以来，玩`OpenStack`也已经3个月了，这段时间主要把精力投在了`OpenStack`的安装部署和网络组件`Neutron`的研究上了。这期间零零散散在安装部署和`Neutron`运作原理上来回切换，有点在实践中学习的味道，虽然在安装部署的过程遇到了不少的问题，也一一都给解决了。然而，总是觉得对于`Neutron`的机制理解的还是不够透彻。前一阵子刚刚部署好一套`Havana`版本的系统，并开始投入使用。这阵子又开始投入`OpenStack`的IPv6的试验中，因为需要对底层的路由机制进行彻底的了解，所以不得不又开始重新捋了一遍这方面的知识，在网上Google了一把资料，这次算是彻底的把`Neutron`的运作机制彻底的理清楚了，之前那些半懂不懂的东西，现在也是觉得豁然开朗了。
 
 <!--more-->
