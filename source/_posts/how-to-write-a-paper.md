@@ -3,7 +3,7 @@ date: 2014-02-02 16:13:34
 categories: [学习]
 tags: [论文,写作]
 ---
-![](/img/2014/02/02/papers.jpg)
+![](http://ww1.sinaimg.cn/mw690/7458d655ly1flalbaelhvj20sg0kf7wh.jpg)
 
 其实身为一名将来要成为码农的软工master，学术活动基本上是与我们无关的，而与写paper也几乎是绝缘的。然而因为读书报告的缘故，也是寥寥看了几篇paper，尤其是Google的那三篇牛文，更是好好的拜读了一番。读完之后，除了对`GFS`、`MapReduce`、`BigTable`有了些了解外，倒是对这些paper的行文风格甚是感兴趣，觉得这些paper的行文似乎都是一脉相承，但是其思路倒是很是清晰明了。
 
