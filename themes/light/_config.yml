@@ -30,7 +30,8 @@ fancybox: true
 google_analytics:
 rss: /atom.xml
 
-comment_provider: facebook
+# comment_provider: facebook
+comment_provider: disqus
 # Facebook comment
 facebook:
   appid: 123456789012345
