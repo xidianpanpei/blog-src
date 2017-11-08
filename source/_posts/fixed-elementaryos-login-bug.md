@@ -3,7 +3,7 @@ date: 2014-02-20 10:28:45
 categories: [杂项]
 tags: [ElementaryOS,登录]
 ---
-![](/img/2014/02/20/elementaryos.png)
+![](http://ww1.sinaimg.cn/mw690/7458d655ly1flalipfo9ej20zk0m8q65.jpg)
 
 [Elementary OS](http://elementaryos.org/)自从出来之后，便声称是“最美的Linux”。我在很早之前看了相关介绍后，出于对于Elementary OS简洁精致的界面的喜爱，便很快安装了Luna版本的，这也是目前唯一的一个正式版本。
 
