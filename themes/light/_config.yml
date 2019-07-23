@@ -4,11 +4,6 @@ menu:
   About: /about
 
 widgets:
-- search
-- recent_posts
-- tagcloud
-- category
-- blogroll
 
 excerpt_link: Read More
 
